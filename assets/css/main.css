@@ -3624,7 +3624,7 @@ a img {
 .user-projects h3 {
   margin-top: -10px;
 }
-.user-projects a{
+.user-projects a {
   text-decoration: none;
 }
 /* Responsive Grid Layout */
@@ -3639,19 +3639,57 @@ a img {
   .user-projects {
     grid-template-columns: repeat(1, 1fr);
     gap: 40px;
-    
   }
 }
 @media (max-width: 500px) {
   .user-projects {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 250px);
     gap: 40px;
-    margin: 20px 70px;
+    margin-right: 60px;
+    margin-left: 60px;
+  }
+  .tech p {
+    font-size: 10px;
+  }
+  .para {
+    font-size: 14px;
+  }
+
+  .user p {
+    font-size: 14px;
+  }
+  form {
+    max-width: 200px;
+    margin: auto;
+  }
+
+  input,
+  textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: "Nunito Sans", sans-serif;
+  }
+  .btn {
+    background: #3000c1;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    font-family: "Nunito Sans", sans-serif;
+    transition: all 0.3s ease-in-out;
+  }
+  .btn:hover {
+    background: #c4b0ff;
+    color: #3000c1;
+    font-weight: 900;
+    cursor: pointer;
   }
 }
 
 .tech p {
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .footer {
@@ -3706,4 +3744,78 @@ textarea {
   color: #3000c1;
   font-weight: 900;
   cursor: pointer;
+}
+
+/* Contact Section */
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  background-color: #000000; /* Dark background for contrast */
+  color: white;
+  text-align: center;
+}
+
+/* Container */
+.user-details {
+  width: 100%;
+  max-width: 600px;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+/* Heading */
+.user-details h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+/* Form Inputs */
+.user-details form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.user-details input,
+.user-details textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid white;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  outline: none;
+}
+
+.user-details textarea {
+  height: 120px;
+  resize: none;
+}
+
+/* Placeholder Styling */
+.user-details input::placeholder,
+.user-details textarea::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .user-details {
+    width: 80%;
+    padding: 30px;
+  }
+
+  .user-details h1 {
+    font-size: 24px;
+  }
+
+  .btn {
+    font-size: 16px;
+    padding: 10px;
+    width: 90%;
+  }
 }
