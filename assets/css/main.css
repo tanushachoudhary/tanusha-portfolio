@@ -3624,7 +3624,9 @@ a img {
 .user-projects h3 {
   margin-top: -10px;
 }
-
+.user-projects a{
+  text-decoration: none;
+}
 /* Responsive Grid Layout */
 @media (max-width: 1024px) {
   .user-projects {
