@@ -5102,7 +5102,7 @@ a img {
   text-decoration: none;
 }
 /* Responsive Grid Layout */
-/* @media (max-width: 1024px) {
+@media (max-width: 1024px) {
   .user-projects {
     grid-template-columns: repeat(2, 1fr);
     gap: 80px;
@@ -5160,7 +5160,7 @@ a img {
     font-weight: 900;
     cursor: pointer;
   }
-} */
+}
 
 .tech p {
   font-size: 14px;
