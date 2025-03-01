@@ -1,4 +1,4 @@
-# <a href="[https://tanusha-portfolio-main.netlify.app/]" target="_blank">My Portfolio Website</a>
+# <a href="https://tanusha-portfolio-main.netlify.app/" target="_blank">My Portfolio Website</a>
 
 My personal portfolio website made using HTML,SASS,Particle-JS
 
