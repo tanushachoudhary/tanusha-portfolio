@@ -117,6 +117,14 @@ img {
 svg:not(:root) {
   overflow: hidden;
 }
+.stats {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
 
 button,
 input,

@@ -14,10 +14,14 @@
     <!-- Keyword Metadata -->
     <meta
       name="keywords"
-      content="Tanusha Choudhary,Tanusha Choudhary,Tanusha Choudhary,Tanusha Choudhary,Tanusha Choudhary,Tanusha Choudhary,Tanusha Choudhary,Tanusha Choudhary,Tanusha Choudhary,Tanusha Choudhary,Tanusha Choudhary,Tanusha Choudhary,Tanusha Choudhary,Tanusha Choudhary,Tanusha Choudhary,Tanusha Choudhary,Tanusha Choudhary,Tanusha Choudhary,Tanusha Choudhary,"
+      content="Tanusha Choudhary, web developer, software engineer, React developer, JavaScript projects, IT portfolio, full stack developer"
     />
+
     <!-- Webpage Logo -->
-    <link rel="shortcut icon" href="https://res.cloudinary.com/dk3p0uh4n/image/upload/favicon_ets7tk.ico" />
+    <link
+      rel="shortcut icon"
+      href="https://res.cloudinary.com/dk3p0uh4n/image/upload/favicon_ets7tk.ico"
+    />
     <!-- Webpage Title -->
     <title>TANUSHA CHOUDHARY</title>
 
@@ -29,6 +33,14 @@
 
     <!-- Import CSS: Main Stylesheet -->
     <link rel="stylesheet" href="./assets/css/main.css" />
+    <style>
+      .calendar {
+        max-width: 1100px;
+        margin: 30px auto;
+        padding: 15px;
+        background: #000;
+      }
+    </style>
   </head>
 
   <body>
@@ -133,11 +145,9 @@
         <!-- Technology Stack #3: Back-End -->
         <div class="tech">
           <h2>Back-End</h2>
-          
-      
+
           <i class="devicon-nodejs-plain-wordmark colored"></i>
-          
-          
+
           <i class="devicon-express-original-wordmark"></i>
           <i class="devicon-mongodb-plain-wordmark colored"></i>
           <i class="devicon-mysql-plain-wordmark colored"></i>
@@ -161,6 +171,42 @@
         </div>
       </div>
     </section>
+
+    <div class="user-details">
+      <h1>Days I Code</h1>
+    </div>
+    <div class="calendar">
+      <!-- Loading stuff -->
+      Loading the data just for you.
+    </div>
+
+    <!-- Add this inside your <body> or at the bottom of the page -->
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+    <link rel="stylesheet" href="./gitstyle.css" />
+
+    <script>
+      GitHubCalendar(".calendar", "tanushachoudhary", { responsive: true });
+    </script>
+
+    <!-- GitHub Stats Section -->
+    <div class="stats">
+      <img 
+        src="https://github-readme-streak-stats.herokuapp.com/?user=tanushachoudhary&theme=midnight-purple&hide_border=true" 
+        alt="GitHub Streak"
+        class="rounded-lg shadow-lg"
+      />
+      <img 
+        src="https://github-readme-stats.vercel.app/api?username=tanushachoudhary&show_icons=true&theme=midnight-purple&hide_border=true&count_private=true" 
+        alt="GitHub Stats"
+        class="rounded-lg shadow-lg"
+      />
+      <img 
+        src="https://github-readme-stats.vercel.app/api/top-langs/?username=tanushachoudhary&layout=compact&theme=midnight-purple&hide_border=true" 
+        alt="Top Languages"
+        class="rounded-lg shadow-lg"
+      />
+    </div>
+  
 
     <!-- Projects Section -->
     <section id="projects">
@@ -382,9 +428,88 @@
     </section>
 
     <footer class="footer">
-      <p>&copy; Tanusha Choudhary, 2025</p>
+      <p>
+        © 2025 Tanusha Choudhary | Built with ❤️ using HTML, CSS & JavaScript
+      </p>
     </footer>
 
+
+    <script>
+      particlesJS("particles-js", {
+        // Paste your JSON config object here
+       "particles": {
+    "number": {
+      "value": 180,
+      "density": {
+        "enable": true,
+        "value_area": 800
+      }
+    },
+    "color": {
+      "value": "#ffffff"
+    },
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
+      },
+      "polygon": {
+        "nb_sides": 5
+      },
+      "image": {
+        "src": "img/github.svg",
+        "width": 100,
+        "height": 100
+      }
+    },
+    "opacity": {
+      "value": 1,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 1,
+        "opacity_min": 0.1,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 10,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 40,
+        "size_min": 0.1,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": false,
+      "distance": 500,
+      "color": "#ffffff",
+      "opacity": 0.4,
+      "width": 2
+    },
+    "move": {
+      "enable": true,
+      "speed": 6,
+      "direction": "bottom",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
+    }
+  },
+
+  "retina_detect": true
+      });
+    </script>
+    
     <!-- Import JS: Particles Theme -->
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <!-- Import JS: Sweet Scroll -->
