@@ -200,3 +200,39 @@ text.ContributionCalendar-label {
     width: 100%;
   }
 }
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.stats img {
+  flex: 1 1 450px; /* Makes image flexible, minimum width 150px */
+  max-width: 450px; /* Restricts max width */
+  height: auto; /* Maintains aspect ratio */
+  object-fit: contain; /* Ensures full image is visible */
+  border-radius: 8px; /* Optional: rounded corners */
+  display: block;
+}
+
+/* For smaller screens */
+@media (max-width: 600px) {
+  .stats img {
+    flex-basis: 100px; /* Shrinks basis for mobile */
+    max-width: 200px;
+  }
+}
+@media (max-width: 600px) {
+  .calendar {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .calendar {
+    display: none;
+  }
+}
