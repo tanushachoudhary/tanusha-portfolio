@@ -58,7 +58,10 @@ tool-tip {
   text-align: center;
   margin: 0 auto;
 }
-
+.calendar a {
+  color: #dfe2e5;
+  visibility: hidden !important;
+}
 .calendar-graph text.month {
   font-size: 10px;
   fill: #aaa;

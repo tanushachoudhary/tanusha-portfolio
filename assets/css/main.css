@@ -6,6 +6,7 @@ html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -16,6 +17,52 @@ body {
   color: #ffffff;
   font-family: "Nunito Sans", sans-serif;
   background: #000;
+}
+
+.nav-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 10px 30px;
+  background: linear-gradient(to right, #08001e, #0b025e, #280193, #3b04d2);
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation .brand {
+  margin-right: auto;
+}
+
+.brand a {
+  font-size: 22px;
+  font-weight: bold;
+  color: #c4cbfc;
+  text-decoration: none;
+}
+
+.menu-items {
+  display: flex;
+  gap: 30px;
+}
+
+.menu-items li a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #adadad;
+  font-weight: bold;
+}
+
+.menu-items li a:hover {
+  color: #9035ff;
 }
 
 article,
@@ -5238,7 +5285,7 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 60px 20px;
+  padding: 20px 20px 0 20px;
   background-color: #000000; /* Dark background for contrast */
   color: white;
   text-align: center;
@@ -5248,7 +5295,6 @@ textarea {
 .user-contact {
   width: 100%;
   max-width: 1000px;
-  padding: 40px;
   border-radius: 10px;
 }
 .user-contact button {
