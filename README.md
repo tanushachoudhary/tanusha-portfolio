@@ -2,7 +2,6 @@
 
 My personal portfolio website made using HTML,SASS,Particle-JS
 
-![image](https://github.com/user-attachments/assets/19476df4-66f4-43da-925b-4341d2f119b9)
+<img width="1892" height="872" alt="image" src="https://github.com/user-attachments/assets/e97d973f-d5fa-4079-aa59-0a062b577a91" />
+<img width="1893" height="794" alt="image" src="https://github.com/user-attachments/assets/ab06673f-df6b-4769-bb18-368f695b4eac" />
 
-
-![image](https://github.com/user-attachments/assets/52d5c7fc-5c44-4254-a241-6bad441c6d19)
