@@ -57,7 +57,7 @@ body {
 .menu-items li a {
   font-size: 18px;
   text-decoration: none;
-  color: #adadad;
+  color: #f2f2f2;
   font-weight: bold;
   transition: color 0.3s ease;
 }
